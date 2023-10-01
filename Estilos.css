@@ -1,0 +1,162 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*Investigar*/
+  }
+  
+  body {
+    background: #f9f9f7 url("Laboratorio GreenCR/images/background.png") repeat-x;
+    background-size: contain;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color:black;
+    line-height: 18px;
+  }
+  #outer{
+    position: relative;
+    width: 60%;
+    background-color: #FFF;
+    width: 920px;
+    border: initial;
+    overflow: overlay;
+    margin: 0px auto;
+    padding: 10px ;
+
+}
+#header{
+    height: 250px;
+    width: 900px;
+}
+#logo h1 {
+    position: absolute;
+    top: 5%;
+    left: 30px; /* Ajusta la distancia desde el lado izquierdo según sea necesario */
+    transform: translateY(50%);
+    color:black;
+    font-size: 50PX;
+  }
+  #logo img{
+
+    width: 99%;
+  }
+
+  #menu {
+    background-color: #488000;
+    overflow: hidden;
+    width: 891px;
+    height: 35px;
+  }
+  
+  #menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  #menu a::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 16px; /* Ajusta según sea necesario */
+  }
+  
+  #menu a:last-child::after {
+    content: ""; /* Elimina el "|" después del último elemento */
+  }
+  
+  #menu a:hover {
+    background-color: #ddd;
+  }
+  #primarycontent{
+    width: 600px;
+    float: right;
+    margin-right: 75px;
+    font-size: larger;
+}
+#secondarycontent .content{
+    
+    width: 200px;
+}
+
+#secondarycontent h2{
+
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+
+#secondarycontent .date{
+
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #488000;    
+} 
+
+
+#secondarycontent h3{
+
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+   
+} 
+
+#secondarycontent img{
+    float: left;
+}
+
+.picC{
+    float: left;
+    width: 210px;
+    padding-right: 10px;
+    
+}
+
+.content p {
+    font-size: small;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+#primarycontent h1{
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+.header h2{
+    font-size: 20px;
+    padding-left: 10px;
+    color: #488000;
+    padding-bottom: 15px;
+
+}
+
+.content img{
+    padding-left: 10px;
+}
+
+#pricipalcontent .title{
+    padding-left: 10px;
+}
+
+#footer{
+    padding-top: 10px;
+    width: 880px;
+    height: 35px;
+    color: #FFF;
+    text-align: center;
+    background-color: #488000;
+}
+
+
+
+
+  
